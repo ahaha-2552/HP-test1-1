@@ -1,0 +1,146 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+.contents-view {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contents-view h1 {
+  position: relative;
+  top: 10px;
+  font-size: 45px;
+  font-family: serif;
+}
+
+.contents-view h1 {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-family: serif;
+  font-size: 45px;
+}
+
+.contents-list {
+  position: absolute;
+  display: flex;
+}
+
+.contents-list a {
+  text-decoration: none;
+  color:  rgb(238, 208, 208);
+  margin: 30px 30px;
+  font-size: 20px;
+  font-family: 'Georgia';
+  border-bottom: 1px solid black;
+  cursor:pointer;
+  transition:800ms ease all;
+}
+
+.contents-list a:hover {
+  letter-spacing: 2px;
+}
+
+
+.main-img {
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  height: 300px;
+}
+
+.bottom-contact {
+  margin: 25px 230px;
+  font-family: 'Times New Roman';
+  font-size: 18px;
+
+}
+
+.contact {
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.contact-hi {
+  display: flex;
+  align-items: center;
+}
+
+.fas fa-map-pin {
+  margin-bottom: 10px;
+}
+
+.adress {
+  margin-left: 15px;
+  align-items: center;
+}
+
+.contact-mid {
+  display: flex;
+  align-items: center;
+}
+
+.number {
+  margin: 10px 0 5px 13px;
+}
+
+.fas {
+  margin-top: 10px;
+}
+
+.fa-phone {
+  margin-top: 20px;
+}
+
+.contact-low {
+  display: flex;
+  align-items: center;
+}
+
+.mail {
+  margin-left: 15px;
+}
+
+.side-content {
+  margin: 25px 0;
+}
+
+.side-content p {
+  font-family: 'Times New Roman';
+  font-size: 20px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  color: black;
+}
+
+.fa-facebook {
+  color:#3b5998;
+}
+
+.fa-instagram {
+  color:#e1306c;
+}
+
+.fa-twitter-square {
+  color:#1da1f2;
+}
